@@ -22,7 +22,7 @@ const Navbar = () => {
                                 <li><a>FAQ</a></li>
                             </ul>
                         </div>
-                        <h1 className='bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-4xl font-bold py-1'>
+                        <h1 className='bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-4xl font-bold py-1 animate-pulse'>
                             <a href="">DigiTools</a>
                         </h1>
                     </div>
@@ -36,9 +36,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end space-x-4">
-                        <a className='text-xl hover:text-[#4F39F6]' href=""><MdOutlineShoppingCart /></a>
-                        <a className='font-semibold hover:text-[#4F39F6]' href="">Login</a>
-                        <a className="btn rounded-full bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] text-white hover:from-pink-500 hover:to-orange-500">Get Started</a>
+                        <a className='text-xl hover:text-[#4F39F6] hidden lg:flex' href=""><MdOutlineShoppingCart /></a>
+                        <a className='font-semibold hover:text-[#4F39F6] hidden lg:flex' href="">Login</a>
+                        <a className="btn rounded-full bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] text-white hover:from-pink-500 hover:to-orange-500 p-6">Get Started</a>
                     </div>
                 </div>
             </div>
