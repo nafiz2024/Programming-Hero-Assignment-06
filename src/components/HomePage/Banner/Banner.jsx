@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className="space-y-4">
                     <div className="bg-[#E1E7FF] rounded-full w-[295px]">
                         <p className='flex items-center gap-1.5 py-2 px-4 font-medium bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>
-                            <img src={dot} alt="" />
+                            <img className='animate-ping' src={dot} alt="" />
                             New: AI-Powered Tools Available
                         </p>
                     </div>

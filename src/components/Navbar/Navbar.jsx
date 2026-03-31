@@ -20,6 +20,8 @@ const Navbar = () => {
                                 <li><a>Pricing</a></li>
                                 <li><a>Testimonials</a></li>
                                 <li><a>FAQ</a></li>
+                                <li><a>Cart <MdOutlineShoppingCart /></a></li>
+                                <li><a>Login</a></li>
                             </ul>
                         </div>
                         <h1 className='bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-4xl font-bold py-1 animate-pulse'>
