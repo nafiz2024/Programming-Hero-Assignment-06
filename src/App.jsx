@@ -6,7 +6,7 @@ import Success from './components/HomePage/Success/Success'
 import Navbar from './components/Navbar/Navbar'
 
 const fetchCard = async () => {
-  const res = await fetch("/public/cardData.json");
+  const res = await fetch("/cardData.json");
   return res.json()
 }
 
