@@ -12,6 +12,11 @@ const Carts = ({ selectedCard, setSelectedCard }) => {
         toast.warn("Product Remove To Cart")
     }
 
+    const totalPrice = selectedCard.reduce(
+        (total, card) => total + card.price,
+        0
+    );
+
     return (
         <div className="p-10 border border-[#F2F2F2] rounded-2xl text-start flex flex-col gap-6" >
             <h1 className='text-2xl font-bold'>Your Cart</h1>
@@ -51,7 +56,10 @@ const Carts = ({ selectedCard, setSelectedCard }) => {
                     })
                 }
             </div>
-            <p>Total:</p>
+            <div className="flex justify-between items-center">
+                <p className='text-[#627382]'>Total</p>
+                <p className='text-2xl font-bold'>${totalPrice}</p>
+            </div>
 
             <ToastContainer />
         </div>
