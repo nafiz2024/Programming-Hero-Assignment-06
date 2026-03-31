@@ -23,7 +23,7 @@ const Banner = () => {
                     <p className='max-w-lg text-lg leading-9 text-[#627382]'>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
                     </p>
                 </div>
-                <div className="space-x-4 space-y-4 lg:space-y-0">
+                <div className="flex flex-col lg:flex-row space-x-4 space-y-4 lg:space-x-4">
                     <button className='btn rounded-full bg-gradient-to-tr from-[#4F39F6] to-[#9514FA] text-lg text-white  p-6 hover:from-white hover:to-white hover:border-[#9514FA] hover:text-[#9514FA]'>
                         Explore Products
                     </button>
