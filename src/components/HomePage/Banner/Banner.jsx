@@ -16,9 +16,7 @@ const Banner = () => {
                         </p>
                     </div>
                     <h1 className='text-4xl lg:text-7xl font-extrabold leading-15 lg:leading-20'>
-                        Supercharge Your
-                        <br />
-                        Digital Workflow
+                        Supercharge Your Digital Workflow
                     </h1>
                     <p className='max-w-lg text-lg leading-9 text-[#627382]'>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
                     </p>
