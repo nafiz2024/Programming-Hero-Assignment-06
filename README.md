@@ -1,16 +1,162 @@
-# React + Vite
+# 📘 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern React-based web application that showcases various digital tools in an organized way.  
+Users can explore tools, view details, and interact with a responsive and clean UI designed for better user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+<img src="./src/assets/DigiTools.png">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 Live Website: https://diigitools.netlify.app/  
+🔗 GitHub Repository: https://github.com/nafiz2024/Programming-Hero-Assignment-06
+
+---
+
+## ✨ Features
+
+- 🧰 Digital tools listing interface
+- 🔎 Tool details view
+- 🔔 Toast notification using React-Toastify
+- ⚡ Fast and dynamic UI with React
+- 📱 Fully responsive design
+- 🎨 Clean UI using Tailwind CSS & DaisyUI
+- 📂 Data loaded from JSON file
+- ⏳ Smooth user experience
+
+---
+
+## 🧠 How It Works
+
+1. React application loads tool data from JSON file.
+2. Tools are displayed in card format.
+3. Users can interact with tools and view details.
+4. Toast notifications appear for user actions.
+5. UI updates dynamically based on state.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- DaisyUI
+
+### Libraries
+- React-Toastify
+
+### Data
+- JSON
+
+---
+
+## 📦 Dependencies
+
+```bash
+npm install react-toastify
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/nafiz2024/Programming-Hero-Assignment-06.git
+```
+
+Go to project folder:
+
+```bash
+cd Programming-Hero-Assignment-06
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+src
+│
+├── components
+│   ├── Navbar
+│   ├── ToolsCard
+│   ├── ToolDetails
+│   └── Toast
+│
+├── data
+│   └── tools.json
+│
+├── assets
+│   └── images
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📸 Screenshots
+
+### Tool Details
+
+<img src="./src/assets/Tools Details.png">
+
+### Cart Details
+
+<img src="./src/assets/Cart Details.png">
+
+---
+
+## 🔮 Future Improvements
+
+- Search functionality
+- Category filter
+- Favorite tools system
+- Backend integration
+- User authentication
+- Dark mode
+
+---
+
+## 👨‍💻 Author
+
+**Nafiz Alam**  
+Frontend Web Developer | MERN Stack Developer  
+
+- 🌐 GitHub: https://github.com/nafiz2024  
+- 💼 LinkedIn: https://www.linkedin.com/in/nafiz-alam04/  
+- 📧 Email: nafizalam.dev@email.com  
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star on GitHub ⭐
