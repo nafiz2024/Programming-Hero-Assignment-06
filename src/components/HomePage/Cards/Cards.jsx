@@ -28,7 +28,7 @@ const Cards = ({ cardsPromise }) => {
                             Cart ({selectedCard.length})
                         </button>
                     </div>
-                </div>
+                </div> 
                 <div className="">
                     {selectedTab === "products" ? (
                         <Products cardsData={cardsData} selectedCard={selectedCard} setSelectedCard={setSelectedCard}></Products>
