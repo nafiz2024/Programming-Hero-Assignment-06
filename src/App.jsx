@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import { ToastContainer } from 'react-toastify';
 import Steps from './components/HomePage/Steps/Steps'
 import Pricing from './components/HomePage/Pricing/Pricing'
+import Workflow from './components/HomePage/Workflow/Workflow'
 
 const fetchCard = async () => {
   const res = await fetch("/cardData.json");
@@ -49,6 +50,7 @@ function App() {
       }>
         <Pricing pricingPromise={pricingPromise}></Pricing>
       </Suspense>
+      <Workflow></Workflow>
 
       <ToastContainer />
     </>
