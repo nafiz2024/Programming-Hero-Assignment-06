@@ -1,6 +1,6 @@
 import React from 'react';
 import CardFeatures from './CardFeatures';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const Card = ({ card, selectedCard, setSelectedCard }) => {
 
@@ -12,7 +12,7 @@ const Card = ({ card, selectedCard, setSelectedCard }) => {
         if (isAdded) {
             toast.error('Product is Already Added To Cart');
         } else {
-            toast.success('Product Adding To Cart');
+            toast.success('Product is Added To Cart');
             setSelectedCard([...selectedCard, card]);
         };
     }
@@ -52,7 +52,6 @@ const Card = ({ card, selectedCard, setSelectedCard }) => {
             >
                 {isAdded ? "Adding to Cart" : "Buy Now"}
             </button>
-            <ToastContainer />
         </div>
     );
 };

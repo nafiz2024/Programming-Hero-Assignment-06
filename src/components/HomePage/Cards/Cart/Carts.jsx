@@ -1,5 +1,5 @@
 import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const Carts = ({ selectedCard, setSelectedCard }) => {
 
@@ -60,8 +60,6 @@ const Carts = ({ selectedCard, setSelectedCard }) => {
                 <p className='text-[#627382]'>Total</p>
                 <p className='text-2xl font-bold'>${totalPrice}</p>
             </div>
-
-            <ToastContainer />
         </div>
     );
 };
