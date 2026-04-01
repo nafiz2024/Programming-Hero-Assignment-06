@@ -14,7 +14,7 @@ const Cards = ({ cardsPromise }) => {
         <div>
             <div className={`container mx-auto text-center px-5 lg:px-0 py-10 lg:py-32 flex ${selectedTab === "products" ? "flex-col" : "flex-col-reverse"} gap-10 `}>
                 <div className="space-y-4 flex flex-col items-center">
-                    <h1 className='text-5xl font-extrabold'>Premium Digital Tools</h1>
+                    <h1 className='text-3xl lg:text-5xl font-extrabold'>Premium Digital Tools</h1>
                     <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
                     <div className="flex">
                         <button

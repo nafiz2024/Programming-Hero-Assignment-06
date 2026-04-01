@@ -5,7 +5,7 @@ const Workflow = () => {
         <div className="bg-gradient-to-tr from-[#4F39F6] to-[#9514FA]">
             <div className='container mx-auto px-5 lg:px-0 py-10 lg:py-32 flex flex-col gap-10 items-center text-center'>
                 <div className="flex flex-col gap-4 items-center">
-                    <h1 className='text-[40px] font-extrabold text-white'>Ready to Transform Your Workflow?</h1>
+                    <h1 className='text-3xl lg:text-[40px] font-extrabold text-white'>Ready to Transform Your Workflow?</h1>
                     <p className='leading-6 text-white max-w-lg'>Join thousands of professionals who are already using Digitools to work smarter. Start your free trial today.</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
